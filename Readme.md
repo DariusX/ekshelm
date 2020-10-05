@@ -1,4 +1,4 @@
-# eksclient 0.1.0: A Docker image to work with EKS
+# ekshelm 0.1.0: A Docker image to work with EKS
 
 This is a Dockerfile that builds an Amazon Linux image with:
 * AWS CLI
@@ -10,7 +10,7 @@ One use case is to spin up a container with this image, to perform various pipel
 
 
 ## To run
-`docker run --rm -it eksclient /bin/bash` 
+`docker run --rm -it ekshelm /bin/bash` 
 
 ## Example 1: Using Helm to deploy to EKS, and hit the deployed service
 
